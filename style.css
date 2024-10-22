@@ -64,6 +64,7 @@ header{
     justify-content: space-around;
     flex-direction: column;
     padding: 50px;
+
 }
 .projects h1{
     margin-bottom: 30px;
@@ -71,10 +72,22 @@ header{
 .projects div{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .projects img{
     width: 300px;
+}
+.projects article{
+    width: 500px;
+    text-align: center;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 30px;
+    background-color: #bbb;
+    padding: 100px;
 }
 
 
